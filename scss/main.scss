@@ -79,7 +79,7 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     "bioimage bio bio"
-    "job1 job2 job3";
+    "jobskills jobskills jobskills";
 
   grid-template-columns: repeat(3, 1fr);
 }
@@ -96,22 +96,42 @@ main {
   font-size: 1.5rem;
 }
 
-.job-1 {
-  grid-area: job1;
-}
-
-.job-2 {
-  grid-area: job2;
-}
-
-.job-3 {
-  grid-area: job3;
-}
-
-.job {
+.jobskills {
   background: lighten($primary-color, 5);
   padding: 0.5rem;
   border-bottom: $secondary-color 5px solid;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: darken($primary-color, 5);
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: #fff;
+}
+//Skill Bars
+.html {
+  width: 90%;
+  background-color: set-text-color($secondary-color);
+}
+
+.css {
+  width: 75%;
+  background-color: set-text-color($secondary-color);
+}
+
+.js {
+  width: 65%;
+  background-color: set-text-color($secondary-color);
+}
+
+.php {
+  width: 40%;
+  background-color: set-text-color($secondary-color);
 }
 
 //Work/Projects Page
