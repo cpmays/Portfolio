@@ -12,6 +12,14 @@
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpmays/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cpmays/Portfolio/issues"
   }
 }

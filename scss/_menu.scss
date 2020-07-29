@@ -45,7 +45,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9; //controls the overlay's opacity
+  opacity: 1; //controls the overlay's opacity
   visibility: hidden;
 
   &.show {
